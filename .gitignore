@@ -1,0 +1,45 @@
+# DesignArena-2Api - Privacy & Security GitIgnore
+
+# === Secrets & Credentials (CRITICAL) ===
+captured_token.txt
+captured_cookie.txt
+token_cache.json
+secret.key
+accounts.json
+data/auth/
+data/credentials/
+
+# === Persistence & Sessions ===
+data/chrome_mirror/
+sessions/
+data/browser_sessions/
+
+# === Databases ===
+*.db
+*.db-journal
+*.sqlite
+
+# === Logs & Artifacts ===
+app.log
+logs/
+brain/
+*.log
+
+# === Build & Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# === Generated Media ===
+generated_images/
+tmp/
+
+# === OS & IDE ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

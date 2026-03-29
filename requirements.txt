@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+aiohttp[speedups]
+python-multipart
+pydantic
+pydantic-settings
+PySide6
+shiboken6
+httpx
+cryptography
+playwright
+playwright-stealth==1.0.6
+loguru
+psutil
